@@ -1,5 +1,4 @@
-﻿
-using tyuiu.cources.programming.interfaces.Sprint6;
+﻿using tyuiu.cources.programming.interfaces.Sprint6;
 
 namespace Tyuiu.MuliavinIM.Sprint6.Task6.V22.Lib
 {
@@ -16,7 +15,7 @@ namespace Tyuiu.MuliavinIM.Sprint6.Task6.V22.Lib
                     resStr += " " + line.Split(' ')[0];
                 }
             }
-            return resStr;
+            return resStr.Trim();
         }
     }
 }
